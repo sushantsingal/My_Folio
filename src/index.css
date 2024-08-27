@@ -72,6 +72,14 @@ button:focus-visible {
 }
 
 @media screen and (min-width: 800px) {
+  .banner{
+    margin-top: 300px 0 100px 0;
+  }
+  .proj-txtx span {
+    font-weight: 400;
+    font-size: 15px;
+  }
+  
   .project .nav.nav-pills {
     width: 72%;
     margin: 40px auto;
