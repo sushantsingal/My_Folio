@@ -382,8 +382,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 56%;
 }
 .project .nav.nav-pills {
-  width: 72%;
-  margin: 40px auto;
+  width: 100%;
+  margin: 30px auto;
   border-radius: 50px;
   background-color: rgb(255 255 255 / 10%);
   overflow: hidden;
@@ -394,15 +394,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project .nav.nav-pills .nav-link {
   background-color: transparent;
   border-radius: 0;
-  padding: 17px 0;
   color: #fff;
   width: 100%;
-  font-size: 17px;
-  letter-spacing: 0.8px;
+  font-size: 14px;
   font-weight: 500;
   position: relative;
   transition: 0.3s ease-in-out;
   text-align: center;
+  padding: 8px 6px;
   z-index: 0;
 }
 .project .nav.nav-pills .nav-link::before {
