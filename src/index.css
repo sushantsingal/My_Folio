@@ -71,5 +71,28 @@ button:focus-visible {
   }
 }
 
+@media screen and (min-width: 800px) {
+  .project .nav.nav-pills {
+    width: 72%;
+    margin: 40px auto;
+    border-radius: 50px;
+    background-color: rgb(255 255 255 / 10%);
+    overflow: hidden;
+}
+  .project .nav.nav-pills .nav-link{
+    background-color: transparent;
+    border-radius: 0;
+    padding: 17px 0;
+    color: #fff;
+    width: 100%;
+    font-size: 17px;
+    letter-spacing: 0.8px;
+    font-weight: 500;
+    position: relative;
+    transition: 0.3s ease-in-out;
+    text-align: center;
+    z-index: 0;
+  }
+}
 
 
