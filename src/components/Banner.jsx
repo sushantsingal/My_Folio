@@ -15,7 +15,7 @@ export const Banner = () => {
   const period = 1000;
 
   const connect = () => {
-      window.location.href = 'https://drive.google.com/file/d/1693E9wWHqEIj6KMSk_VCVuCBQawqSAtz/view'; 
+      window.location.href = 'https://drive.google.com/file/d/1OkvD8JBEAqjcq8DJ7Jo06v6cuzpU6VBQ/view?usp=drive_link'; 
   };
 
   useEffect(() => {
