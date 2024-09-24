@@ -40,7 +40,7 @@ export const Projects = () => {
             imgUrl: projImg2,
           },
           {
-            title: "Portfolio",
+            title: "Portfolio Prototype",
             description: "In this project, I focused on creating a seamless and visually appealing user experience for a personal portfolio. The design emphasizes clarity, simplicity, and interactivity, ensuring that visitors can easily navigate through sections and gain a comprehensive understanding of the showcased work.",
             imgUrl: projImg6,
           },
