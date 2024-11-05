@@ -12,9 +12,9 @@ export const Footer = () => {
   return (
     <footer className="footer">
       <Container>
-        <Row className="align-items-center">
+        <Row>
             {/* <MailChimpForm /> */}
-            <Col sm={6} className="mt-4">
+            <Col sm={6}>
                 <img src={logo} alt="Logo" />
             </Col>
             <Col sm={6} className="text-center text-sm-end">
