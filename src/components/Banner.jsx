@@ -51,7 +51,7 @@ export const Banner = () => {
 
   return (
     <section className="banner" id="home">
-      <Container>
+      <Container className="mt-3">
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
