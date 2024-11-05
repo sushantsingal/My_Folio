@@ -42,15 +42,15 @@ h1, h2, h3, h4, h5, h6{
   line-height: normal;
 } 
 
-@media screen and (min-width: 800px){
+@media screen and (min-width: 990px){
   #root{
     width: 1520px;
   }
 }
 
-@media screen and (max-width: 800px) and (min-width:360px){
+@media screen and (max-width: 990px) and (min-width:360px){
   #root{
-    width: 800px;
+    width: 990px;
   }
 }
 
