@@ -42,8 +42,19 @@ h1, h2, h3, h4, h5, h6{
   line-height: normal;
 } 
 
+@media screen and (min-width: 500px){
+  #root{
+    width: 1520px;
+  }
+}
+
+@media screen and (max-width: 380px){
+  #root{
+    width: 360px;
+  }
+}
+
 #root {
-  width: 1520px;
   max-width: 1600px;
   text-align: center;
 }
