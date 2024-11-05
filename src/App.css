@@ -48,9 +48,9 @@ h1, h2, h3, h4, h5, h6{
   }
 }
 
-@media screen and (min-width: 700px) and (max-width:360){
+@media screen and (min-width: 800px) and (max-width:360){
   #root{
-    width: 700px;
+    width: 800px;
   }
 }
 
