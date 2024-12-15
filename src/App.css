@@ -42,8 +42,26 @@ h1, h2, h3, h4, h5, h6{
   line-height: normal;
 } 
 
+@media screen and (min-width: 990px){
+  #root{
+    width: 1520px;
+  }
+}
+
+@media screen and (max-width: 990px) and (min-width:360px){
+  #root{
+    width: 990px;
+  }
+}
+
+@media screen and (max-width: 360px){
+  #root{
+    width: 360px;
+  }
+}
+
+
 #root {
-  max-width: 1600px;
   text-align: center;
 }
 
@@ -95,8 +113,8 @@ nav.navbar {
   transition:  0.32s ease-in-out;
 }
 nav.navbar.scrolled {
-  padding: 0px 0;
   background-color: #121212;
+  padding: 0px 0;
 }
 nav.navbar a.navbar-brand {
     width: 9%;
@@ -566,7 +584,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /* Footer CSS */
 
 .footer {
-  padding: 0 0 50px 0;
+  padding: 20px 0 20px 0;
   background-image: url('./assets/img/footer-bg.png');
   background-position: center center;
   background-size: cover;
