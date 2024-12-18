@@ -6,7 +6,6 @@ import projImg2 from "../assets/img/Nike.png";
 import projImg3 from "../assets/img/Jhoom.png";
 import projImg4 from "../assets/img/Locale-linkup.png";
 import projImg5 from "../assets/img/Landing-page.png";
-import projImg6 from "../assets/img/Portfolio.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -39,11 +38,11 @@ export const Projects = () => {
             description: "This is a prototype for the Nike app that streamlines and personalizes the buying and product tracking processes. Its sleek, user-friendly design makes it easy for customers to browse products.This prototype was designed to operate at peak efficiency across many platforms.",
             imgUrl: projImg2,
           },
-          {
-            title: "Portfolio Prototype",
-            description: "In this project, I focused on creating a seamless and visually appealing user experience for a personal portfolio. The design emphasizes clarity, simplicity, and interactivity, ensuring that visitors can easily navigate through sections and gain a comprehensive understanding of the showcased work.",
-            imgUrl: projImg6,
-          },
+          // {
+          //   title: "Landing Page",
+          //   description: "Web Design",
+          //   imgUrl: projImg5,
+          // },
           // {
           //   title: "Business Startup",
           //   description: "Design & Development",
@@ -84,7 +83,7 @@ export const Projects = () => {
                 <Tab.Container id="project-tabs" defaultActiveKey="first">
                 <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                   <Nav.Item>
-                    <Nav.Link eventKey="first">Design & Development</Nav.Link>
+                    <Nav.Link eventKey="first">Frontend Design</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
                     <Nav.Link eventKey="second">UI/UX Design</Nav.Link>
