@@ -42,26 +42,9 @@ h1, h2, h3, h4, h5, h6{
   line-height: normal;
 } 
 
-@media screen and (min-width: 990px){
-  #root{
-    width: 1520px;
-  }
-}
-
-@media screen and (max-width: 990px) and (min-width:360px){
-  #root{
-    width: 990px;
-  }
-}
-
-@media screen and (max-width: 360px){
-  #root{
-    width: 360px;
-  }
-}
-
-
 #root {
+  margin: auto;
+  max-width: 1600px;
   text-align: center;
 }
 
@@ -103,6 +86,9 @@ h1, h2, h3, h4, h5, h6{
 
 /* Navbar CSS */
 
+.banner-contain{
+    margin-top: 3rem;
+}
 nav.navbar {
   padding: 18px 0;
   left: 0;
@@ -113,8 +99,8 @@ nav.navbar {
   transition:  0.32s ease-in-out;
 }
 nav.navbar.scrolled {
-  background-color: #121212;
   padding: 0px 0;
+  background-color: #121212;
 }
 nav.navbar a.navbar-brand {
     width: 9%;
@@ -259,7 +245,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .banner {
   margin-top: 0;
-  padding: 100px 0 100px 0;
+  padding: 4rem;
   background-image: url('./assets/img/Theme.png');
   background-position: top center;
   background-size: cover;
@@ -316,7 +302,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-left: 25px;
 }
 .banner img {
-  animation: updown 6s linear infinite;
+  padding: 1.5rem;
+  animation: updown 5s linear infinite;
 }
 @keyframes updown {
     0% {
@@ -338,8 +325,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /* Skills CSS */
 
 .skill {
-  padding: 9 0px 0 50px 0;
-  position: relative;
+  padding: 90px 0 50px 0;
 }
 .skill-bx {
   background: #151515;
@@ -412,12 +398,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 0;
   color: #fff;
   width: 100%;
-  font-size: 14px;
+  font-size: 1.5rem;
   font-weight: 500;
   position: relative;
   transition: 0.3s ease-in-out;
   text-align: center;
-  padding: 8px 6px;
+  padding: 8px;
   z-index: 0;
 }
 .project .nav.nav-pills .nav-link::before {
@@ -469,6 +455,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   height: 100%;
 }
 .proj-txtx {
+  padding: 1rem;
   position: absolute;
   text-align: center;
   top: 65%;
@@ -555,7 +542,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 14px 48px;
   font-size: 18px;
   margin-top: 25px;
-  border-radius: 0;
+  border-radius: 1rem;
   position: relative;
   transition: 0.3s ease-in-out;
 }
@@ -572,6 +559,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 0;
   height: 100%;
   position: absolute;
+  border-radius: 1rem;
   top: 0;
   left: 0;
   z-index: 0;
@@ -584,7 +572,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /* Footer CSS */
 
 .footer {
-  padding: 20px 0 20px 0;
+  padding: 0 0 50px 0;
   background-image: url('./assets/img/footer-bg.png');
   background-position: center center;
   background-size: cover;
@@ -651,7 +639,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 18px;
 }
 .footer img {
-  width: 15%;
+  width: 20%;
 }
 .footer p {
   font-weight: 400;
@@ -673,4 +661,149 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   height: 1em;
   background-color: white;
   animation: blink .5s step-start infinite;
+}
+
+
+/* Responsive CSS */
+
+/* General Styling for Small Screens */
+@media (max-width: 1200px) {
+  nav.navbar a.navbar-brand {
+    width: 12%;
+  }
+  .banner h1 {
+    font-size: 50px;
+  }
+  .banner span {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 992px) {
+  /* Navbar */
+  nav.navbar .navbar-nav .nav-link.navbar-link {
+    padding: 0 15px;
+    font-size: 16px;
+  }
+  .navbar-text button {
+    padding: 12px 24px;
+    font-size: 16px;
+  }
+
+  /* Banner Section */
+  .banner h1 {
+    font-size: 40px;
+  }
+  .banner span {
+    font-size: 28px;
+  }
+  .banner p {
+    font-size: 16px;
+  }
+
+  /* Skills Section */
+  .skill-slider {
+    width: 90%;
+  }
+
+  /* Projects Section */
+  .project p {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Navbar */
+  nav.navbar {
+    background-color: #121212;
+    padding: 10px 0;
+  }
+  nav.navbar a.navbar-brand {
+    width: 20%;
+  }
+  .navbar-text button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  /* Banner Section */
+  .banner{
+    margin-top: 15px;
+  }
+  
+  .banner h1 {
+    font-size: 32px;
+  }
+  .banner span {
+    font-size: 24px;
+  }
+  .banner p {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  /* Projects Section */
+  .project p {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .project .nav.nav-pills .nav-link {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  /* Navbar */
+  nav.navbar {
+    padding: 10px 0;
+  }
+  nav.navbar a.navbar-brand {
+    width: 15%;
+  }
+  nav.navbar .navbar-nav .nav-link.navbar-link {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+
+  /* Banner Section */
+
+  .container{
+    max-width: 540px;
+  }
+  .banner h1 {
+    font-size: 28px;
+  }
+  .banner span {
+    font-size: 20px;
+  }
+  .banner p {
+    font-size: 12px;
+  }
+
+  /* Skills Section */
+  .skill-bx{
+    margin: 1rem;
+  }
+
+  .skill-bx {
+    padding: 2rem;
+  }
+  .skill h2 {
+    font-size: 28px;
+  }
+
+  /* Footer */
+  .footer img {
+    width: 20%;
+  }
+  .newsletter-bx {
+    padding: 30px;
+  }
+  .newsletter-bx h3 {
+    font-size: 18px;
+  }
+  .new-email-bx input {
+    font-size: 14px;
+  }
 }
