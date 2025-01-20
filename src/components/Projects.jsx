@@ -20,6 +20,7 @@ export const Projects = () => {
             description: "This basic blogging webpage, built with HTML, CSS, and JavaScript, offers a clean, user-friendly platform for sharing content. It features a homepage with recent posts, individual post pages, and a simple navigation menu.",
             imgUrl: projImg1,
             link: "https://befikre.netlify.app/",
+            github:"https://github.com/sushantsingal/Befikre",
           },
           {
             title: "Landing Page",
@@ -30,7 +31,8 @@ export const Projects = () => {
             title: "Jhoom",
             description: "This music webpage, built with HTML, CSS, and JavaScript, offers a clean, responsive design for exploring and playing tracks, providing a user-friendly experience across all devices.",
             imgUrl: projImg3,
-            link: "https://jhoom.netlify.app/"
+            link: "https://jhoom.netlify.app/",
+            github:"https://github.com/sushantsingal/Jhoom",
           }
     ];
 
@@ -59,13 +61,13 @@ export const Projects = () => {
             title: "Locale Linkup",
             description: "E-commerce has transformed shopping but challenged local businesses. Our project addresses this by creating a platform for small entrepreneurs to showcase their products and reach a broader community audience.",
             imgUrl: projImg4,
-            link: "https://github.com/sushantsingal/Locale-Linkup",
+            github: "https://github.com/sushantsingal/Locale-Linkup",
           },
           {
             title: "Wander-Mate",
             description: "Wander Mate is a user-friendly platform designed to simplify and streamline your entire travel planning experience. Whether you’re a solo traveler, a group planner, or a travel enthusiast, Wander Mate ensures your journey is as organized and effortless as possible.",
             imgUrl: projImg6,
-            link: "https://github.com/sushantsingal/travel-buddy",
+            github: "https://github.com/sushantsingal/travel-buddy",
           },
           // {
           //   title: "Business Startup",
