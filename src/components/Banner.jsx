@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+6import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import headerImg from "../assets/img/header-img.png";
@@ -66,7 +66,7 @@ export const Banner = () => {
               A creative, goal-oriented, and well-organized undergraduate with excellent design, leadership, and communication abilities. devoted to finding chances in computer science engineering and completing projects that are effective and of excellent quality.
               </p>
               <button onClick={connect}>
-                Let's Connect <ArrowRightCircle size={25} />
+                Resume <ArrowRightCircle size={25} />
               </button>
             </div>}
             </TrackVisibility>
