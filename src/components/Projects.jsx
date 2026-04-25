@@ -17,19 +17,19 @@ export const Projects = () => {
     const projectsTabOne = [
         {
             title: "Befikre",
-            description: "This basic blogging webpage, built with HTML, CSS, and JavaScript, offers a clean, user-friendly platform for sharing content. It features a homepage with recent posts, individual post pages, and a simple navigation menu.",
+            description: "Built a simple blogging website using HTML, CSS, and JavaScript.",
             imgUrl: projImg1,
             link: "https://befikre.netlify.app/",
             github:"https://github.com/sushantsingal/Befikre",
           },
           {
             title: "Landing Page",
-            description: "This landing page, built with HTML, CSS, and JavaScript, provides a clean, modern design that effectively introduces your product or service and engages users.",
+            description: "Developed a clean landing page to showcase products or services.",
             imgUrl: projImg5,
           },
           {
             title: "Jhoom",
-            description: "This music webpage, built with HTML, CSS, and JavaScript, offers a clean, responsive design for exploring and playing tracks, providing a user-friendly experience across all devices.",
+            description: "Developed a music player website with a responsive design.",
             imgUrl: projImg3,
             link: "https://jhoom.netlify.app/",
             github:"https://github.com/sushantsingal/Jhoom",
@@ -39,13 +39,13 @@ export const Projects = () => {
     const projectsTabTwo = [
           {
             title: "Nike Prototype",
-            description: "This is a prototype for the Nike app that streamlines and personalizes the buying and product tracking processes. Its sleek, user-friendly design makes it easy for customers to browse products.This prototype was designed to operate at peak efficiency across many platforms.",
+            description: "Designed a Nike app prototype for streamlined product browsing and tracking.",
             imgUrl: projImg2,
             link: "https://www.figma.com/proto/Dbk4nbVpJdx3anQ6kYSRyF/Nike-App?page-id=0%3A1&node-id=19-9&p=f&viewport=82%2C462%2C0.11&t=x2stpvOaCt1VuDos-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=11%3A222",
           },
           {
             title: "Portfolio Prototype",
-            description: "This is a prototype for a portfolio website designed to showcase skills, projects, and achievements with a sleek, user-friendly interface. It features smooth navigation, interactive flows, and supports both light and dark themes for an engaging user experience.",
+            description: "Designed a portfolio website prototype to showcase skills and projects.",
             imgUrl: projImg7,
             link: "https://www.figma.com/proto/g3PWU5znbYS4pyzlURZtEc?node-id=0-1&t=F1yEFLljBNMWtALU-6",
           },
@@ -59,13 +59,13 @@ export const Projects = () => {
     const projectsTabThree = [
           {
             title: "Locale Linkup",
-            description: "E-commerce has transformed shopping but challenged local businesses. Our project addresses this by creating a platform for small entrepreneurs to showcase their products and reach a broader community audience.",
+            description: "Developed an e-commerce platform to help small businesses reach more customers.",
             imgUrl: projImg4,
             github: "https://github.com/sushantsingal/Locale-Linkup",
           },
           {
             title: "Wander-Mate",
-            description: "Wander Mate is a user-friendly platform designed to simplify and streamline your entire travel planning experience. Whether you’re a solo traveler, a group planner, or a travel enthusiast, Wander Mate ensures your journey is as organized and effortless as possible.",
+            description: "Developed Wander Mate, a platform to simplify and organize travel planning.",
             imgUrl: projImg6,
             github: "https://github.com/sushantsingal/travel-buddy",
           },
